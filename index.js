@@ -2,7 +2,7 @@ require("dotenv").config();
 const { Telegraf, Markup, session } = require("telegraf");
 const express = require('express');
 const fetch = require('node-fetch');
-// const cors = require('cors');
+const cors = require('cors');
 const app = express();
 const bodyParser = require("body-parser");
 const axios = require("axios");
